@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  <xconnect>
+    <!-- URL for the xConnect server. -->
+    <uri>https://<Add-your-xconnect-domain-here></uri>
+    <!-- Client certificate for the xConnect server. -->
+    <certificate>
+      <AllowInvalidClientCertificates>true</AllowInvalidClientCertificates>
+      <StoreName>My</StoreName>
+      <StoreLocation>LocalMachine</StoreLocation>
+      <FindType>FindByThumbprint</FindType>
+      <FindValue><Add-your-certificate-thumbprint-here></FindValue>
+    </certificate>
+  </xconnect>
+</settings>
